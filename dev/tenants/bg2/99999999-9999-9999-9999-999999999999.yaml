@@ -1,0 +1,32 @@
+apiVersion: provisioning-management.ifs.com/v1
+kind: Tenant
+metadata:
+  labels:
+    ifs.com/bg-set: bg2
+  name: 99999999-9999-9999-9999-999999999999
+spec:
+  customerId: mak
+  suspended: false
+  metadata:
+    creationTimestamp: "2024-10-16T12:26:17Z"
+    customerCode: mak
+    description: this is a test guid by nico, do not modify
+    environmentName: cfg
+    internal: true
+    region: southeastasia
+    regionAreaCode: apjmea
+    regionShortCode: asse
+    tenantShortId: makcfg1jgvc79
+    umids:
+    - 99999999-9999-9999-9999-999999999999
+  capabilities:
+  - name: crm-panel-contact-creation-automation.email-signature-extraction
+    config: {}
+    suspended: false
+  - name: copilot.ask
+    config: {}
+    suspended: false
+  - name: copilot.chat
+    config: {}
+    suspended: false
+  requestGeneration: 1
