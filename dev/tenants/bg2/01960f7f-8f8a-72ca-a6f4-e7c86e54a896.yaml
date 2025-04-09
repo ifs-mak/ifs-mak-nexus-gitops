@@ -20,13 +20,7 @@ spec:
     umids:
     - 99999999-9999-9999-9999-999999999999
   capabilities:
-  - name: crm-panel-contact-creation-automation.email-signature-extraction
+  - name: test-capability
     config: {}
     suspended: false
-  - name: copilot.ask
-    config: {}
-    suspended: false
-  - name: copilot.chat
-    config: {}
-    suspended: false
-  requestGeneration: 2
+  requestGeneration: 3
