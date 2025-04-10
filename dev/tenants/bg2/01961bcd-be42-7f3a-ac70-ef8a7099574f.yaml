@@ -19,5 +19,8 @@ spec:
     tenantShortId: makcfg1jgvc79
     umids:
     - 99999999-9999-9999-9999-999999999999
-  capabilities: []
-  requestGeneration: 5
+  capabilities:
+  - name: test-capability
+    config: {}
+    suspended: false
+  requestGeneration: 6
